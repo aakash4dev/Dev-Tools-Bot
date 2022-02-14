@@ -1,6 +1,6 @@
 let allRemove = document.getElementsByClassName("sbai");
-allRemove.forEach(e =>{
-  setTimeout(() => {
-    e.click()
-  }, 1000);
-});
+for (let i = 0; i < allRemove.length; i++) {
+    setTimeout(() => {
+        allRemove[i].click();
+    }, 1000);
+}
